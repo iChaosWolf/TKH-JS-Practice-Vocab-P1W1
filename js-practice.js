@@ -50,7 +50,6 @@ let bike
 //b. assign an object to bike 
  bike={}
 //c. give the object 3 properties: handlebars, color, wheels 
-bike["transport"]="Bike";
 bike["handlebars"]="";
 bike["color"]="";
 bike["wheels"]="";

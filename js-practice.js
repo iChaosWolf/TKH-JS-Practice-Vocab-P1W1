@@ -40,7 +40,9 @@ myArray=["John", "Josh","Manny","Bryan","Isaac"]
 //a. write a for loop that console logs even numbers starting at 10 and decrementing to 0 
 for (i=10;i>=0;i--){
 
-    console.log(i)
+    if(i%2==0){
+      console.log(i)
+    }
 }
 
 //5. objects
@@ -76,8 +78,9 @@ When you have a program that generates this pattern, define a binding size = 8 a
 read and refer to https://eloquentjavascript.net/02_program_structure.html  there are hints at the bottom of the page 
 */
 
+
 function myGrid(){
-     gridSize = 8;
+  gridSize = 8;
 
      chessboard = "";
     
